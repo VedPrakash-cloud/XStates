@@ -96,7 +96,7 @@ export default function CountryList(){
             </div>
             <div>
                 {selectedCity?
-                <div><span className='text-2xl font-bold'>You Selected {selectedCity},</span> <span className='text-gray-500 text-xl font-bold'>{selectedStates}, {selectedCountry}</span></div>:''}
+                <div><span className='text-2xl font-bold'>You Selected {selectedCity},</span>{selectedStates}, {selectedCountry}</div>:''}
             </div>
             </div>
         </div>
